@@ -1,8 +1,13 @@
 aid: forum-mobility
 name: Forum Mobility
-description: Forum Mobility is a company surfaced as a portfolio company of obvious-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Forum Mobility develops, owns, and operates zero-emission heavy-duty trucking infrastructure,
+  bundling electric Class 8 truck leases with charging subscriptions for a single monthly price so freight
+  carriers of every size can electrify without upfront capital. The company builds and runs a network of
+  charging depots — anchored by its flagship FM Harbor site at the Port of Long Beach (44 ports, 360KW fast
+  chargers, 9MW capacity) — with additional depots in development across California and Nevada. Forum Mobility
+  was surfaced as a portfolio company of obvious-ventures and added to the API Evangelist network. It is a
+  physical-infrastructure operator with no public developer/API surface at this time; this profile captures
+  its identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/forum-mobility/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +15,30 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://forummobility.com/wp-content/uploads/2026/04/cropped-item-28-192x192.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Electric Vehicles
+- Trucking
+- Fleet
+- Charging Infrastructure
+- Zero Emission
+- Clean Energy
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://forummobility.com
+- type: About
+  url: https://forummobility.com/about-us/
+- type: Blog
+  url: https://forummobility.com/news/
+- type: Support
+  url: https://forummobility.com/contact-us/
+- type: TermsOfService
+  url: https://forummobility.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://forummobility.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/forum-mobility/
+- type: YouTube
+  url: https://www.youtube.com/@ForumMobility-ih5fn
+- type: DomainSecurity
+  url: security/forum-mobility-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
